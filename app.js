@@ -9,7 +9,15 @@ function exibirVideo(aula) {
     1: {
       title: "Aula 1 - Apresentação do Curso de Word 2016",
       src: "https://www.youtube-nocookie.com/embed/59lDXVkqlqQ?controls=0",
-      description: "Descrição da aula 1.",
+      description: "Começa aqui nosso Curso em Vídeo de Word 2016, que vai mostrar muitas dicas e funcionalidades do Editor de Textos mais popular do mundo.
+
+Nós do CursoemVideo sempre recomendamos assistir a aula completa, mas se quiser aprender diretamente uma parte específica, clique nos marcadores de tempo a seguir:
+
+0:20 – A Entrevista
+
+4:00 – O que será visto no curso?
+
+6:50 – Surpresa 😉",
     },
     2: {
       title: "Aula 2 - 10 Dicas Para Word 2016",
