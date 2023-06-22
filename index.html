@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="Assets/favicon.svg" type="image/x-icon">
+    <link rel="apple-touch-icon" href="Assets/favicon.svg">
+    <meta name="apple-mobile-web-app-title" content="Curso de Word 2016">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+  </head>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title id="animatedTitle">Curso de Word 2016</title>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="Assets/logo.svg" >
+
+    </header>
+
+    <main>
+      <aside>
+        <h2>Aulas</h2>
+        <form id="aulasForm">
+          <input
+            type="radio"
+            name="aula"
+            id="aula1"
+            value="1"
+            onchange="exibirVideo(this.value)"
+            checked
+          />
+          <label for="aula1" onclick="marcarInput('aula1')"
+            >Aula 1 - Apresentação do Curso de Word 2016 </label
+          ><br />
+          <input
+            type="radio"
+            name="aula"
+            id="aula2"
+            value="2"
+            onchange="exibirVideo(this.value)"
+          />
+          <label for="aula2" onclick="marcarInput('aula2')"
+            >Aula 2 - 10 Dicas Para Word 2016</label
+          ><br />
+          <input
+            type="radio"
+            name="aula"
+            id="aula3"
+            value="3"
+            onchange="exibirVideo(this.value)"
+          />
+          <label for="aula3" onclick="marcarInput('aula3')"
+            >Aula 3 - Primeiros Passos no Word 2016</label
+          ><br />
+          <input
+            type="radio"
+            name="aula"
+            id="aula4"
+            value="4"
+            onchange="exibirVideo(this.value)"
+          />
+          <label for="aula4" onclick="marcarInput('aula4')"
+            >Aula 4 - Salvando documento locais na Nuvem</label
+          ><br />
+          <input
+            type="radio"
+            name="aula"
+            id="aula5"
+            value="5"
+            onchange="exibirVideo(this.value)"
+          />
+          <label for="aula5" onclick="marcarInput('aula5')"
+            >Aula 5 - Abrindo e editando um PDF no Word 2016</label
+          ><br />
+          <input
+            type="radio"
+            name="aula"
+            id="aula6"
+            value="6"
+            onchange="exibirVideo(this.value)"
+          />
+          <label for="aula6" onclick="marcarInput('aula6')"
+            >Aula 6 - Digitação e formatação básica</label
+          ><br />
+          <input
+            type="radio"
+            name="aula"
+            id="aula7"
+            value="7"
+            onchange="exibirVideo(this.value)"
+          />
+          <label for="aula7" onclick="marcarInput('aula7')"
+            >Aula 7 - Formatação Baseadas em Estilos</label
+          ><br />
+          <input
+            type="radio"
+            name="aula"
+            id="aula8"
+            value="8"
+            onchange="exibirVideo(this.value)"
+          />
+          <label for="aula8" onclick="marcarInput('aula8')"
+            >Aula 8 - Trabalhando com imagem</label
+          ><br />
+          <input
+            type="radio"
+            name="aula"
+            id="aula9"
+            value="9"
+            onchange="exibirVideo(this.value)"
+          />
+          <label for="aula9" onclick="marcarInput('aula9')"
+            >Aula 9 - Marcas de Tabulação</label
+          ><br />
+          <input
+            type="radio"
+            name="aula"
+            id="aula10"
+            value="10"
+            onchange="exibirVideo(this.value)"
+          />
+          <label for="aula10" onclick="marcarInput('aula10')"
+            >Aula 10 - Configurações na Página</label
+          ><br />
+          <input
+            type="radio"
+            name="aula"
+            id="aula11"
+            value="11"
+            onchange="exibirVideo(this.value)"
+          />
+          <label for="aula11" onclick="marcarInput('aula11')"
+            >Aula 11 - Texto em colunas</label
+          ><br />
+          <input
+            type="radio"
+            name="aula"
+            id="aula12"
+            value="12"
+            onchange="exibirVideo(this.value)"
+          />
+          <label for="aula12" onclick="marcarInput('aula12')"
+            >Aula 12 - Quebras de Texto</label
+          ><br />
+          <input
+            type="radio"
+            name="aula"
+            id="aula13"
+            value="13"
+            onchange="exibirVideo(this.value)"
+          />
+          <label for="aula13" onclick="marcarInput('aula13')"
+            >Aula 13 - Cabeçalho e Rodapé</label
+          ><br />
+          <input
+            type="radio"
+            name="aula"
+            id="aula14"
+            value="14"
+            onchange="exibirVideo(this.value)"
+          />
+          <label for="aula14" onclick="marcarInput('aula14')"
+            >Aula 14 - Estrutura Avançada de um Documento Word</label
+          ><br />
+          <input
+            type="radio"
+            name="aula"
+            id="aula15"
+            value="15"
+            onchange="exibirVideo(this.value)"
+          />
+          <label for="aula15" onclick="marcarInput('aula15')"
+            >Aula 15 - Folha de Rosto (Capas no Word)</label
+          ><br />
+          <input
+            type="radio"
+            name="aula"
+            id="aula16"
+            value="16"
+            onchange="exibirVideo(this.value)"
+          />
+          <label for="aula16" onclick="marcarInput('aula16')"
+            >Aula 16 - Componentes de Design</label
+          ><br />
+          <input
+            type="radio"
+            name="aula"
+            id="aula17"
+            value="17"
+            onchange="exibirVideo(this.value)"
+          />
+          <label for="aula17" onclick="marcarInput('aula17')"
+            >Aula 17 - Sumário Automático</label
+          ><br />
+          <input
+            type="radio"
+            name="aula"
+            id="aula18"
+            value="18"
+            onchange="exibirVideo(this.value)"
+          />
+          <label for="aula18" onclick="marcarInput('aula18')"
+            >Aula 18 - Criando Bibliografia ABNT Automática no Word</label
+          ><br />
+          <input
+            type="radio"
+            name="aula"
+            id="aula19"
+            value="19"
+            onchange="exibirVideo(this.value)"
+          />
+          <label for="aula19" onclick="marcarInput('aula19')"
+            >Aula 19 - Notas de Rodapé e Comentários</label
+          ><br />
+          <input
+            type="radio"
+            name="aula"
+            id="aula20"
+            value="20"
+            onchange="exibirVideo(this.value)"
+          />
+          <label for="aula20" onclick="marcarInput('aula20')"
+            >Aula 20 - Lista no Word</label
+          ><br />
+          <input
+            type="radio"
+            name="aula"
+            id="aula21"
+            value="21"
+            onchange="exibirVideo(this.value)"
+          />
+          <label for="aula21" onclick="marcarInput('aula21')"
+            >Aula 21 - Tabelas no Word</label
+          ><br />
+          <input
+            type="radio"
+            name="aula"
+            id="aula22"
+            value="22"
+            onchange="exibirVideo(this.value)"
+          />
+          <label for="aula22" onclick="marcarInput('aula22')"
+            >Aula 22 - Fórmulas e Equações</label
+          ><br />
+        </form>
+      </aside>
+
+      <section id="videoSection">
+        <!-- Video 1 -->
+        <h2 class="title" id="title">Aula 1 - Apresentação do Curso de Word 2016</h2>
+        <iframe
+          id="video"
+          width="750"
+          height="500px"
+          src="https://www.youtube-nocookie.com/embed/59lDXVkqlqQ?controls=0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="autoplay"
+          allowfullscreen
+        ></iframe>
+
+        <p id="description">Descrição da aula 1</p>
+        <div class="botoes">
+          <button id="anteriorBtn" onclick="previousAula()"><img
+            class="img-logo seta-esquerda"
+            src="Assets/seta.svg"
+            alt=""
+          />Anterior
+        </button></button>
+          <button id="proximoBtn" onclick="nextAula()">
+            Próximo
+            <img
+              class="img-logo seta-direita"
+              src="Assets/seta.svg"
+              alt=""
+            />
+          </button>
+        </div>
+
+        <!--  -->
+      </section>
+    </main>
+
+    <footer>&copy; <strong> Escola Integrada</strong>. Todos os direitos reservados.</footer>
+  </body>
+</html>
